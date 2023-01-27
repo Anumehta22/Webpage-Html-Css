@@ -1,0 +1,471 @@
+<html>
+    <head>
+        <title>dovile</title>
+        <style>
+		body
+		{
+		margin:0px 0px 0px 0px;
+		}
+            .main
+        {
+            width:1400px;
+            background-color: aliceblue;
+            height:auto;
+		margin:auto;
+        }
+        .header
+        {
+            width:1400px;
+           background-color:white;
+            height:140px;
+            text-align: center;
+		color:rgb(61, 39, 39);
+		position:fixed;
+		
+        }
+		.header ul
+		{
+			padding-top:20px;	
+		}
+        .first
+        {
+            width:1400px;
+            height:500px;
+            background-color: rgb(250, 241, 228);
+		padding-top:150px;
+		
+        }
+		.menu li
+		{
+			list-style:none;
+			display:inline;
+			color:rgb(61, 39, 39);
+			word-spacing:40px;
+			
+		}
+		.menu a
+		{
+			text-decoration:none;
+		}
+		.menu a:hover
+		{
+			text-decoration:underline;
+			color:black;
+			
+		}
+		.f1
+		{
+			width:700px;
+			height:500px;
+			float:left;
+			color:rgb(61, 39, 39);
+			
+		}
+		.f1 h1
+		{
+			padding-top:30px;
+			word-spacing:10px;
+			font-size:60px;
+			text-align:justify;
+			padding-left:120px;
+			padding-right:90px;
+			
+
+		}
+		.f1 p
+		{
+			word-spacing:5px;
+			font-size:25px;
+			padding-left:120px;
+			padding-right:90px;
+			padding-top:20px;
+			text-align:justify;
+		}
+		.f1 but
+		{
+			padding-left:120px;
+		}
+		.f2
+		{
+			width:690px;
+			height:500px;
+			float:right;
+		}
+		.button
+		{
+			width:160px;
+			height:35px;
+			background-color:rgb(61, 39, 39);
+			margin:40px 90px 90px 120px;
+			text-align:center;
+			padding-top:13px;
+			font-size:20px;
+		}
+		.button a
+		{
+			color:white;
+			text-decoration:none;
+           
+		}
+		.list
+		{
+			width:1400px;
+			height:170px;
+			background-color:white;
+			float:left;
+		}
+		.l li
+		{	
+			list-style:none;
+			display:inline;
+			word-spacing:200px;
+			font-size:30px;
+			padding-left:40px;
+                 
+		}
+		.l
+		{
+			padding-top:50px;
+			color:rgb(61, 39, 39);
+		}
+		.name
+		{	
+			width:1400px;
+			height:600px;
+			background-color:rgb(250, 241, 228);
+			color:rgb(61, 39, 39);
+		}	
+		
+		.name h1 
+		{
+			text-align:center;
+			font-style:New Century Schoolbook;
+			padding-top:250px;
+                 word-spacing:10px;
+			font-size:65px;
+		
+		}
+		.name p
+		{
+
+			padding-left:240px;
+			padding-right:240px;
+			padding-top:40px;
+			text-align:center;
+			font-size:23px;
+			
+		}
+		.serve
+		{
+			width:1400px;
+			height:500px;
+			 background-color: white;
+			/*float:left;*/
+		}
+		.s1
+		{
+			
+			width:700px;
+			height:500px;
+			float:left;
+			
+		}
+		.s1 img
+		{
+			
+			padding-left:80px;
+		}
+		.s2
+		{
+			width:690px;
+			height:500px;
+			float:right;
+			color:rgb(61, 39, 39);
+		}
+		.s2 h1
+		{
+			text-align:left;
+			padding-top:60px;
+			font-size:60px;
+			padding-left:100px;
+		}
+		.s2 p
+		{
+			text-align:left;
+			font-size:20px;
+			padding-left:100px;
+			padding-right:140px;
+			padding-top:30px;
+		}
+		.sbutton
+		{
+			width:160px;
+			height:35px;
+			background-color:rgb(61, 39, 39);
+			margin:80px 90px 90px 100px;
+			text-align:center;
+			padding-top:13px;
+			font-size:20px;
+		}
+		.sbutton a
+		{
+			color:white;
+			text-decoration:none;
+		}
+		.content
+		{
+			width:1400px;
+			height:800px;
+			background-color:rgb(250, 241, 228);
+		}
+		.head
+		{
+			width:1400px;
+			height:200px;
+			
+			text-align:center;
+			color:rgb(61, 39, 39);
+		}
+		.head h1
+{
+		padding-top:35px;
+		font-size:70px;
+		margin-top:0px;
+}
+		.four
+		{
+			width:1400px;
+			height:600px;
+          	background-color:rgb(250, 241, 228);
+			color:rgb(61, 39, 39);
+		}
+		.four1
+		{
+			width:1400px;
+			height:300px;
+			
+			
+		}
+		.four2
+		{
+			width:1400px;
+			height:300px;
+			
+			
+		}
+		.four11
+		{
+			width:700px;
+			height:300px;
+			
+			float:left;
+			
+		}
+		.four12
+		{
+			width:700px;
+			height:300px;
+			
+			float:right;
+		}
+		.four11 h2
+		{
+			padding:20px 50px 10px 160px;
+			margin-top:0px;
+		}
+		.four12 h2
+		{
+			padding:20px 50px 10px 60px;
+			margin-top:0px;
+		}
+		.four11 p
+		{
+			padding:20px 200px 20px 160px;
+			text-align:justify;
+			font-size:18px;
+		}
+		.four12 p
+		{
+			padding:20px 250px 20px 60px;
+			text-align:justify;
+			font-size:18px;
+		}
+		.n1
+		{
+			width:550px;
+			height:600px;
+			
+			float:left;
+		}
+		.n2
+		{
+			width:850px;
+			height:600px;
+			
+			float:right;
+		}
+		.n1 img
+		{
+			padding:100px 30px 60px 200px;
+			
+		}
+		.n2 h3
+		{
+			padding-left:60px;
+			margin-top:0px;
+		}
+		.last
+		{
+			width:1400px;
+			height:450px;
+			background-color:white;
+		}
+		.last img
+		{
+			padding-top:80px;
+			padding-right:20px;
+			
+		}
+		.footer
+		{
+			width:1400px;
+			height:200px;
+			background-color:white;
+			color:rgb(61, 39, 39);
+		}
+		.social
+		{
+			list-style:none;
+			text-align:center;
+			word-spacing:20px;
+			margin-top:0px;
+		}
+		.social li
+		{
+			display:inline;
+		}
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="header">
+                    <h1>DOVILE</h1>
+					<ul class="menu">
+						<a href="index.html"><li>HOME </li></a>
+						<a href="serve.html"><li>SERVICES </li></a>
+						<a href="#.html"><li>ABOUTME </li></a>
+						<a href="#.html"><li>CONTACT </li></a>
+						<a href="#.html"><li>BLOG </li></a>
+					</ul>
+            </div>
+            <div class="first">
+                <div class="f1">
+					<h1>Hello , so good to <br> see you!</h1>
+                    <p>I help small and medium-sized businesses grow their audience and brand recognition through social media.</p>
+						<div class="button">
+							<a href="#.html"> Contact me</a>
+						</div>
+						
+                </div>
+                <div class="f2">
+					<img src="img1.jpg" width="600px" height="500px"/>
+                </div>
+            </div>
+		<div class="list">
+			<ul class="l">
+				<li style="font-style:italic">Featured </li>
+				<li style="font-family:calibri;word-wrap:break; ">LaniHaw </li>
+				<li style="font-family:Georgia">DeonFive </li>
+				<li>KNOXEMUS</li>
+			</ul>
+		</div>
+		<div class="name">
+			<h1>My name is Dovile</h1>
+			<p>I'm your new social media bestie. My mission is to help small and medium-sized businesses grow their audience and brand recognition through social media. To do that, I believe it's paramount to create a committed and genuine community that has a positive influence on people’s lives beyond the online sphere. My goal is to help you understand the power of social media and create connections that go beyond the internet.</p>
+		</div>
+		<div class="serve">
+			<div class="s1">
+			<img src="study.jpg" width="600px" height="500px"/>
+			</div>
+			<div class="s2">
+				<h1>Services</h1>
+				<p>From campaign planning and consultation to content creation and extended social media campaigning, I'm here to help your brand sound like you online.</p>
+				<div class="sbutton">
+					<a href="#.html"> Read more </a>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="head">
+			<h1> Are you ready to....</h1>
+			</div>
+			<div class="four">
+				<div class="four1">
+					<div class="four11">
+					<h2>Create content that's visually<br> pleasing?</h2>
+					<p>It's not enough to just create an account and post something. 
+Your content needs to represents your brand and showcase your mission and values. And 
+you want to do it in a way that stops the user in their tracks – with beautiful content.</p>
+					</div>
+					<div class="four12">
+					<h2>Grow your brand and turn your<br> audience into paying clients?</h2>
+					<p>Selling online is different from traditional sales channels.
+ But most of all, you need to gain your audience's trust if you want them to part with their dollar.</p>
+					</div>
+				</div>
+				<div class="four2">
+					<div class="four11">
+					<h2>Get hold of your dream clients <br>online?</h2>
+					<p>Everybody is online, so why shouldn't you try to reach out to them? With a bigger reach than ever
+ before, the world really is your oyster when it comes to selling online.</p>
+					</div>
+					<div class="four12">
+					<h2>Invest in your brand and take<br> your business to the next level?</h2>
+					<p>Social media marketing is much more than simply posting about an upcoming sale.
+ With the right approach, you can exponentially grow your bottom line.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="background-color:white" class="first">
+		<div class="f1">
+		<h1>My blog</h1>
+		<p>
+My blog
+I'll let you in on some trade secrets and share my top tips on how to successfully promote your brand online.</p>
+		<div class="button">
+			 <a href="#.html"> Read Blog</a>
+		</div>
+		</div>
+		<div class="f2">
+		<img src="group.jpg" width="600px" height="500px"/>
+		</div>
+		</div>
+		<div class="name">
+			<div class="n1">
+			<img src="name.jpg" width="300px" height="300px"/>
+			</div>
+			<div class="n2">
+			<p style="padding:130px 230px 20px 60px;text-align:justify;font-style:Calibri;font-size:20px">"We went from having zero online presence to dominating our niche on Google. As a technophobe I never thought we could do it, but currently social media amounts for the majority of our sales.”</p>
+			<strong><p style="padding-left:60px;text-align:justify">Nicollas Ductorn</p></strong>
+			<p style="padding-left:60px;font-style:italic;text-align:justify">Director of Corporate MarketingForge Inc.</p>
+			</div>
+		</div>
+		<div class="last">
+			<img style="padding-left:120px" src="last1.jpg" width="280px" height="300px"/>
+			<img src="last2.jpg" width="280px" height="300px"/>
+			<img src="last3.jpg" width="280px" height="300px"/>
+			<img style="padding-right:80px" src="last4.jpg" width="280px" height="300px"/>
+			
+		</div>
+		<div class="footer">
+			<ul class="social">
+			<a href="#.html"><li><img src="twit.jpg" width="30px" height="30px"/></li></a>
+			<a href="#.html"><li><img src="facebook.jpg" width="30px" height="30px"/></li></a>
+			<a href="#.html"><li><img src="instagram.jpg" width="30px" height="30px"/></li></a>
+			</ul>
+			<a href="#.html"><p style="text-align:center; text-decoration:underline;padding-left:50px;color:rgb(61, 39, 39);">Terms of Services</p></a>
+		</div>
+        </div>
+    </body>
+</html>
